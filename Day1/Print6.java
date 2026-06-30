@@ -1,8 +1,8 @@
 public class Print6 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Sub
         int a=10;
         int b=6;
         int c=a-b;
-        System
+        System.out.print("Answer:"+c);
     }
 }
