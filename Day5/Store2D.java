@@ -3,7 +3,7 @@ package Day5;
 import java.util.Scanner;
 
 public class Store2D {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//storing 2D array elements
 
         Scanner sc = new Scanner(System.in);
 
