@@ -1,0 +1,23 @@
+package Day5;
+
+import java.util.Scanner;
+
+public class PrintArray {
+    public static void main(String[] args) {//printing array elements
+        Scanner sc = new Scanner(System.in);
+
+        int[] arr = new int[5];
+
+        System.out.println("Enter 5 elements:");
+        for (int i = 0; i < 5; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        System.out.println("Array elements:");
+        for (int i = 0; i < 5; i++) {
+            System.out.print(arr[i] + " ");
+        }
+
+        sc.close();
+    }
+}
