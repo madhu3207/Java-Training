@@ -3,7 +3,7 @@ package Day3;
 import java.util.Scanner;
 
 public class ReadSentence {
-    public static void main(String[] args) {//reading integer and sentence from user
+    public static void main(String[] args) {//reading integer and sentence from user25
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter an integer: ");

@@ -2,7 +2,7 @@ package Day3;
 import java.util.Scanner;
 
 public class Binary {
-    public static void main(String[] args) {//checking binary number is valid or not
+    public static void main(String[] args) {//checking binary number is valid or not1101
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a binary number: ");
