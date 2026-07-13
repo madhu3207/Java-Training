@@ -1,0 +1,16 @@
+package Day16;
+
+class JoinThread extends Thread {
+    public void run() {
+        System.out.println("Child Thread");
+    }
+}
+
+public class JoinDemo {
+    public static void main(String[] args) throws Exception {
+        JoinThread t = new JoinThread();
+        t.start();
+        t.join();
+        System.out.println("Main Thread");
+    }
+}
